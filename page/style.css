@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message {
+    width: 800px;
+    height: 80px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
