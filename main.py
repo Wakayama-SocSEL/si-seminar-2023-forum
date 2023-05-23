@@ -2,6 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import sqlite3
+import subprocess
+
+
+
+def save_log(message):
+    subprocess.run(f"echo {message} >> message.log", shell=True)
 
 
 
@@ -43,4 +49,5 @@ def read_item(message_id: int):
 @app.post("/post")
 def insert_message(message: Message):
     cursor.execute("""INSERT INTO message VALUES(?, ?, ?)""", (0, message.author, message.body))
-    return {"name": "done"}
+    save_log(message.body)
+    return {"status": "done"}
