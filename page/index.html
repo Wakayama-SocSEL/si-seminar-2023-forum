@@ -1,17 +1,19 @@
 <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id="content" class="content">
-        <div class="message" v-for="message in messages">
-            {{ message[1] }}: {{ message[2] }}
+    <div style="display:none;">
+        <div class="message">
+            <span class="author"></span>
+            <span class="body"></span>
         </div>
     </div>
-    <form id="submitForm" onsubmit="return false;">
-        <input id="submitText" type="text" v-model="body">
-        <a id="submitButton" v-on:click="submit()">Submit</a>
+    <div id="content" class="content">
+    </div>
+    <form id="submitForm">
+        <input id="submitText" type="text">
+        <a id="submitButton" onClick="submit()">Submit</a>
     </form>
 
     <script src="main.js"></script>
