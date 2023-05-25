@@ -1,17 +1,18 @@
 <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
+    <title>NG-embedded Form</title>
 </head>
 <body>
     <div style="display:none;">
         <div class="message">
-            <span class="author"></span>
+            <header class="messageHeader"><span class="player-id"></span>【NG: <span class="ng"></span>】<span class="judge"></span></header>
             <span class="body"></span>
         </div>
     </div>
-    <div id="content" class="content">
+    <div id="content">
     </div>
-    <form id="submitForm">
+    <form id="submitForm" onsubmit="return false;">
         <input id="submitText" type="text">
         <a id="submitButton" onClick="submit()">Submit</a>
     </form>
