@@ -1,4 +1,8 @@
 # NG-embedded Forum
+<div align="center">
+     <img src="https://github.com/Wakayama-SocSEL/si-seminar-2023-forum/assets/32835505/cd737a1f-e627-4ad4-8ed6-6a1847ce6cb6" width="80%">
+</div>
+
 
 ## これは何？
 - 対話型ゲームをする匿名掲示板です。プレイヤは一般的な匿名掲示板と同様に、自由な文章を発信することができます。
@@ -8,6 +12,7 @@
 
 ## 動かすには？
 1. Goole Cloud Shellでこのリポジトリを開きます。
+
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/Wakayama-SocSEL/si-seminar-2023-forum.git)
 
 2. コマンドを実行してサーバを起動します。（URLが出力されます）
