@@ -11,7 +11,7 @@
 
 
 ## 動かすには？
-1. Goole Cloud Shellでこのリポジトリを開きます。
+1. Google Cloud Shellでこのリポジトリを開きます。
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/Wakayama-SocSEL/si-seminar-2023-forum.git)
 
