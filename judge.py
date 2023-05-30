@@ -1,3 +1,4 @@
+"""NG行動名とNG判定関数を提供する"""
 import random
 import re
 
