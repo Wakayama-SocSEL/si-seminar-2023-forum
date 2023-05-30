@@ -24,7 +24,7 @@ jobs:
       - name: Setup reviewdog
         run: |
           mkdir -p $HOME/bin && curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b $HOME/bin
-          echo ::add-path::$HOME/bin
+          echo $HOME/bin
 
       - name: Run reviewdog
         env:
