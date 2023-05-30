@@ -3,8 +3,8 @@ import re
 
 
 
-def is_more_than_30_chars(message):
-    return len(message) >= 30
+def is_more_than_30_chars(message_):
+    return len(message_) >= 30
 
 
 
