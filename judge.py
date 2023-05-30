@@ -1,9 +1,19 @@
+"""NG行動名とNG判定関数を提供する"""
 import random
 import re
 
 
 
 def is_more_than_30_chars(message):
+    """メッセージが30文字以上か判定する
+
+    len()を用いてメッセージが30文字以上か判定し、bool値を返す
+
+    :param message: 判定するメッセージ
+    :type message: str
+    :return: メッセージが30文字以上ならばTrue、それ以外でFalse
+    :rtype: bool
+    """
     return len(message) >= 30
 
 
